@@ -1,0 +1,77 @@
+갤럭시 s9 :957,000원
+CPU:Octa Core
+QHD해상도
+무게 163g
+동영상 녹화 해상도
+UHD 4K (3840 x 2160) @30fps
+ram 4GB
+rom64GB
+http://www.samsung.com/sec/smartphones/galaxy-s9-g960/SM-G960NZRAKOO/
+
+갤럭시 노트8 :899,000원
+CPU:Octa Core
+QHD해상도
+무게 195g
+동영상 녹화 해상도
+UHD 4K (3840 x 2160) @30fps
+ram 8GB
+rom64GB
+http://www.samsung.com/sec/smartphones/galaxy-note-8-n950/SM-N950NZBASKO//
+
+갤럭시 A8 :659,500원
+CPU:Octa Core
+해상도:FullHD
+무게:172g
+동영상 녹화 해상도
+FHD (1920 x 1080) @30fps
+메모리: ram 4GB, rom32GB
+http://www.samsung.com/sec/smartphones/galaxy-a8-2018-a530/SM-A530NZBASKO/
+
+LG G7 thinkQ :875,000원
+CPU:퀄컴 스냅드래곤 845프로세서
+QHD해상도
+무게:162g
+ram:4GB
+rom:64GB
+http://www.lge.co.kr/lgekor/product/mobile/smart-phone/productDetail.do?cateId=0212&prdId=EPRD.327565
+
+LG V30S :642,720원
+CPU:퀄컴 스냅드래곤 835프로세서
+QHD해상도
+무게:158g
+ram:4GB
+rom:64GB
+http://www.lge.co.kr/lgekor/product/mobile/smart-phone/productDetail.do?cateId=0219&prdId=EPRD.318023#featureBtnsWrap
+
+iPhoneX :1,029,900원
+CPU:A11 Bionic 칩
+HDR해상도
+무게:174g
+4K 동영상 촬영(초당 24, 30, 또는 60 프레임)
+rom:64GB, 128GB
+https://www.apple.com/kr/iphone-x/
+
+iPhone8 :730,000원
+A11 Bionic 칩
+Retina HD 디스플레이
+1334 x 750 픽셀 해상도(326ppi)
+무게 148g
+4K 동영상 촬영(초당 24, 30, 또는 60 프레임)
+rom:64GB, 256GB
+https://www.apple.com/kr/iphone-8/specs/
+
+iPhone8plus :871,040원
+A11 Bionic 칩
+Retina HD 디스플레이
+1920 x 1080 픽셀 해상도(401ppi)
+무게 202g
+4K 동영상 촬영(초당 24, 30, 또는 60 프레임)
+rom:64GB, 256GB
+https://www.apple.com/kr/iphone-8/specs/
+
+HUAWEI P9 :409,000원
+CPU: HUAWEI Kirin 955, Octa-core
+무게: 144g
+1080p (1920 x 1080)해상도
+메모리: 3 GB RAM + 32 GB ROM
+https://consumer.huawei.com/kr/phones/p9/specs/

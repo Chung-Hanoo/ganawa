@@ -1,0 +1,118 @@
+<html>
+<head>
+  <title>Mouse_Calble</title>
+  <link rel="stylesheet" type="text/css" href="Main_Page.css">
+  <meta charset="utf-8">
+  <style>
+  td{text-align:center;}
+  .a{font-weight:bold;}
+  </style>
+</head>
+
+<body>
+  <div class="top">
+      <ul>
+        <li><a href="Main_Page.html">GANAWA</a></li>
+        <li><a href="Laptop.html">&nbsp;&nbsp;&nbsp;Laptop&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="lt_price_1.html">Price</a></li>
+            <li><a href="lt_brand_apple.html">Brand</a></li>
+            <li><a href="lt_spec_office.html">Use</a></li>
+          </ul>
+        </li>
+        <li><a href="SmartPhone.html">SmartPhone</a>
+          <ul>
+            <li><a href="Smartphone_price_up.html">Price</a></li>
+            <li><a href="Smartphone_samsung.html">Brand</a></li>
+            <li><a href="Smartphone_new.html">Release</a></li>
+          </ul>
+        </li>
+        <li><a href="Keyboard.html">&nbsp;&nbsp;Keyboard&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="kb_price_1.html">Price</a></li>
+            <li><a href="kb_brand_logi.html">Brand</a></li>
+            <li><a href="kb_ax_blue.html">Switch</a></li>
+          </ul>
+        </li>
+        <li><a href="Mouse.html">&nbsp;&nbsp;Mouse&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="Mouse_price_up.html">Price</a></li>
+            <li><a href="Mouse_microsoft.html">Brand</a></li>
+            <li><a href="Mouse_wireless.html">Line</a></li>
+          </ul>
+        </li>
+        <li class="join"><a href="joinus.html">Join</a><li>
+      </ul>
+  </div>
+
+  <script type="text/javascript">
+  function movepage(page)
+  {
+    window.document.location.href=page;
+    return;
+  }
+  </script>
+<div id="middle">
+  <table border="1" align="center">
+    <tr>
+      <td  colspan="5">
+        <form name="price">
+          <input type="radio" name="smartphone" onclick="movepage('Mouse_wireless.html')">Wireless
+            <input type="radio" name="smartphone" onclick="movepage('Mouse_cable.html')">Cable
+      </form>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#4C4C4C" class="a"><font color="white">Line</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="18%"><font color="white">Name</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="15%"><font color="white">Picture</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="45%"><font color="white">Info</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="10%"><font color="white">Price</font></td>
+    </tr>
+    <tr>
+      <td rowspan="4" class="a"><font size="5px">Cable</font></td>
+      <td>TITAN MARK IV</td>
+      <td><a href="http://www.xenics.co.kr/shop/goods/goods_view.php?goodsno=387&category=006">
+        <img src="./img/titan4.jpg" width="150px" height="150px"></a></td>
+      <td>센서:AVAGO 9800레이저<br>
+해상도:최대 8200DPI<br>
+메모리: 64kb Memory<br>
+매크로:지원<br>
+무게:150g<br>
+케이블 길이:1.8m</td><td>79,000원</td>
+    </tr>
+    <tr>
+      <td>TESORO SHARUR SPECTRUM H3L</td>
+      <td><a href="http://www.xenics.co.kr/shop/goods/goods_view.php?goodsno=378&category=006">
+        <img src="./img/h3l.jpg" width="150px" height="150px"></a></td>
+      <td>색상: 검정색<br>
+해상도: 최대4000dpi<br>
+가속도: 20g<br>
+무게: 89g<br>
+매크로 키 지원:30개</td><td>37,000원</td>
+    </tr>
+    <tr>
+      <td>TITAN MARK II</td>
+      <td><a href="http://www.xenics.co.kr/shop/goods/goods_view.php?goodsno=386&category=006">
+        <img src="./img/titan2.jpg" width="150px" height="150px"></a></td>
+      <td>센서: AVAGO 3050옵티컬<br>
+해상도: 250~4000DPI<br>
+메모리: 64kb Memory<br>
+매크로: 지원<br>
+무게: 129g<br>
+케이블 길이: 1.8m</td><td>27,000원</td>
+    </tr>
+    <tr>
+      <td>G102</td>
+      <td><a href="https://www.logitechg.com/ko-kr/product/g102-prodigy-gaming-mouse">
+        <img src="./img/g102.jpg" width="150px" height="150px"></a></td>
+      <td>해상도: 200 – 8,000dpi<br>
+최대 가속: 25G*<br>
+최대 속도: 200ips*<br>
+케이블 길이: 2m<br>
+무게: 85g</td><td>20,390원</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<html>
+<head>
+  <title>Mouse_Apple</title>
+  <link rel="stylesheet" type="text/css" href="Main_Page.css">
+  <meta charset="utf-8">
+  <style>
+  td{text-align:center;}
+  .a{font-weight:bold;}
+  </style>
+</head>
+
+<body>
+  <div class="top">
+      <ul>
+        <li><a href="Main_Page.html">GANAWA</a></li>
+        <li><a href="Laptop.html">&nbsp;&nbsp;&nbsp;Laptop&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="lt_price_1.html">Price</a></li>
+            <li><a href="lt_brand_apple.html">Brand</a></li>
+            <li><a href="lt_spec_office.html">Use</a></li>
+          </ul>
+        </li>
+        <li><a href="SmartPhone.html">SmartPhone</a>
+          <ul>
+            <li><a href="Smartphone_price_up.html">Price</a></li>
+            <li><a href="Smartphone_samsung.html">Brand</a></li>
+            <li><a href="Smartphone_new.html">Release</a></li>
+          </ul>
+        </li>
+        <li><a href="Keyboard.html">&nbsp;&nbsp;Keyboard&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="kb_price_1.html">Price</a></li>
+            <li><a href="kb_brand_logi.html">Brand</a></li>
+            <li><a href="kb_ax_blue.html">Switch</a></li>
+          </ul>
+        </li>
+        <li><a href="Mouse.html">&nbsp;&nbsp;Mouse&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="Mouse_price_up.html">Price</a></li>
+            <li><a href="Mouse_microsoft.html">Brand</a></li>
+            <li><a href="Mouse_wireless.html">Line</a></li>
+          </ul>
+        </li>
+        <li class="join"><a href="joinus.html">Join</a><li>
+      </ul>
+  </div>
+
+  <script type="text/javascript">
+  function movepage(page)
+  {
+    window.document.location.href=page;
+    return;
+  }
+  </script>
+<div id="middle">
+  <table border="1" align="center">
+    <tr>
+      <td  colspan="5">
+        <form name="price">
+          <input type="radio" name="smartphone" onclick="movepage('Mouse_microsoft.html')">Microsoft
+            <input type="radio" name="smartphone" onclick="movepage('Mouse_logitech.html')">Logitech
+            <input type="radio" name="smartphone" onclick="movepage('Mouse_apple.html')">Apple
+            <input type="radio" name="smartphone" onclick="movepage('Mouse_xenics.html')">Xenics
+      </form>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#4C4C4C" class="a"><font color="white">Brand</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="18%"><font color="white">Name</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="15%"><font color="white">Picture</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="45%"><font color="white">Info</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="10%"><font color="white">Price</font></td>
+    </tr>
+    <tr>
+      <td rowspan="2"><img src="./img/apple.jpg" width="200px" height="200px"><br><font size="15px">Apple</font></td>
+      <td>Magic mouse2<br>space gray</td>
+      <td><a href="https://www.apple.com/kr/shop/product/MLA02KH/A/magic-mouse-2-%EC%8B%A4%EB%B2%84?fnode=56">
+        <img src="./img/magicmouse2.jpg" width="150px" height="150px"></a></td>
+      <td>두께: 2.16cm<br>
+가로: 5.71cm <br>
+세로: 11.35cm<br>
+무게: 0.099kg</td><td>129,000원</td>
+    </tr>
+    <tr>
+      <td>Magic Mouse2 <br>silver</td>
+      <td><a href="https://www.apple.com/kr/shop/product/MLA02KH/A/magic-mouse-2-%EC%8B%A4%EB%B2%84?fnode=56">
+        <img src="./img/magicmouse.jpg" width="150px" height="150px"></a></td>
+      <td>두께: 2.16cm<br>
+가로: 5.71cm <br>
+세로: 11.35cm <br>
+무게: 0.099kg</td><td>99,000원</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

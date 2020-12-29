@@ -1,0 +1,120 @@
+.top{
+  border: none;
+  border:0px;
+  margin:0px;
+  padding:0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top ul{
+  background: #4C4C4C;
+  height: 30px;
+  list-style:none;
+  margin: 0px;
+  padding:0px;
+  text-decoration: none;
+}
+
+.top li{ /*첫번째 메뉴바 좌측정렬*/
+  float: left;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.top li a{ /*첫번째 메뉴바 상세설정*/
+  background: #4C4C4C;
+  color: white;
+  display:block;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0px;
+  padding: 0px 20px;
+  text-align: center;
+  text decoration:none;
+}
+.top menu li a:hover, ul li:hover a{ /*마우스 올리면 색 변함*/
+  background: gray;
+  color: white;
+  text-decoration: none;
+}
+
+.top li ul{
+  background: #4C4C4C;
+  display:none; /*평상시에 드랍박스 안모이게*/
+  height: auto;
+  padding:0px;
+  margin:0px;
+  border:0px;
+  position:absolute;
+  width:150px;
+}
+
+.top li:hover ul{
+  display: block; /*마우스 올리면 보이게*/
+}
+
+.top li li{ /*마우스 올릴때 나타는 박스 설정*/
+  background: #4C4C4C;
+  display: block;
+  float: none;
+  margin: 0px;
+  padding:0px;
+  width:150px;
+}
+
+.top li:hover li a{
+  background: none;
+}
+
+.top li ul a{
+  display: block;
+  height: 50px;
+  font-size: 20px;
+  margin: 0px;
+  padding: 5px 5px 0px 15px;
+  text-align: left;
+}
+
+.top li ul a:hover, .top li ul li:hover{
+  background: gray;
+  border: 0px;
+  color: white;
+  text-decoration: none;
+}
+
+.top ul li a{
+  text-decoration: none;
+}
+
+.top li.join{
+  float: right;
+}
+
+p{
+  font-size: 60px;
+  font-weight: bolde;
+  text-align: center;
+}
+
+#join {
+  background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+  background-blend-mode: multiply,multiply;
+  color:white;
+  width:140px;
+  height:20px;
+  padding:40px;
+  text-align:center;
+}
+html {
+  background: url(./img/bgm.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#middle{
+  width:70%;
+  margin:0 auto;
+}

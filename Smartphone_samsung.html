@@ -1,0 +1,111 @@
+<html>
+<head>
+  <title>Smartphone_Samsung</title>
+  <link rel="stylesheet" type="text/css" href="Main_Page.css">
+  <meta charset="utf-8">
+  <style>
+  td{text-align:center;}
+  .a{font-weight:bold;}
+  </style>
+</head>
+
+<body>
+  <div class="top">
+      <ul>
+        <li><a href="Main_Page.html">GANAWA</a></li>
+        <li><a href="Laptop.html">&nbsp;&nbsp;&nbsp;Laptop&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="lt_price_1.html">Price</a></li>
+            <li><a href="lt_brand_apple.html">Brand</a></li>
+            <li><a href="lt_spec_office.html">Use</a></li>
+          </ul>
+        </li>
+        <li><a href="SmartPhone.html">SmartPhone</a>
+          <ul>
+            <li><a href="Smartphone_price_up.html">Price</a></li>
+            <li><a href="Smartphone_samsung.html">Brand</a></li>
+            <li><a href="Smartphone_new.html">Release</a></li>
+          </ul>
+        </li>
+        <li><a href="Keyboard.html">&nbsp;&nbsp;Keyboard&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="kb_price_1.html">Price</a></li>
+            <li><a href="kb_brand_logi.html">Brand</a></li>
+            <li><a href="kb_ax_blue.html">Switch</a></li>
+          </ul>
+        </li>
+        <li><a href="Mouse.html">&nbsp;&nbsp;Mouse&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="Mouse_price_up.html">Price</a></li>
+            <li><a href="Mouse_microsoft.html">Brand</a></li>
+            <li><a href="Mouse_wireless.html">Line</a></li>
+          </ul>
+        </li>
+        <li class="join"><a href="joinus.html">Join</a><li>
+      </ul>
+  </div>
+
+  <script type="text/javascript">
+  function movepage(page)
+  {
+    window.document.location.href=page;
+    return;
+  }
+  </script>
+<div id="middle">
+  <table border="1" align="center">
+    <tr>
+      <td colspan="5" height="30px">
+        <form name="price">
+        <input type="radio" name="smartphone" onclick="movepage('Smartphone_samsung.html')">Samsung
+          <input type="radio" name="smartphone" onclick="movepage('Smartphone_apple.html')">Apple
+          <input type="radio" name="smartphone" onclick="movepage('Smartphone_lg.html')">LG
+          <input type="radio" name="smartphone" onclick="movepage('Smartphone_huawei.html')">Huawei
+      </form>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#4C4C4C" class="a">Brand</td>
+      <td bgcolor="#4C4C4C" class="a" width="10%"><font color="white">Name</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="15%"><font color="white">Picture</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="45%"><font color="white">Info</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="10%"><font color="white">Prise</font></td>
+    </tr>
+    <tr>
+      <td rowspan="3" class="a"><img src="./img/samsung.jpg" width="200px" height="200px"><br><font size="6px">Samsung</font></td>
+      <td>Galaxy S9</td>
+      <td><a href="http://www.samsung.com/sec/smartphones/galaxy-s9-g960/SM-G960NZRAKOO/">
+        <img src="./img/galaxys9.jpg" width="150px" height="150px"></a></td>
+      <td>CPU:Octa Core<br>
+QHD해상도<br>
+무게: 163g<br>
+동영상 녹화 해상도:
+UHD 4K (3840 x 2160) @30fps<br>
+메모리: ram 4GB, rom64GB</td><td>957,000원</td>
+    </tr>
+    <tr>
+      <td>Galaxy Note8</td>
+      <td><a href="http://www.samsung.com/sec/smartphones/galaxy-note-8-n950/SM-N950NZBASKO//">
+        <img src="./img/galaxynote8.jpg" width="150px" height="150px"></a></td>
+      <td>CPU:Octa Core<br>
+QHD해상도<br>
+무게: 195g<br>
+동영상 녹화 해상도:
+UHD 4K (3840 x 2160) @30fps<br>
+메모리: ram 8GB, rom64GB</td><td>899,000원</td>
+    </tr>
+    <tr>
+      <td>Galaxy A8</td>
+      <td><a href="http://www.samsung.com/sec/smartphones/galaxy-a8-2018-a530/SM-A530NZBASKO/">
+        <img src="./img/galaxyA8.jpg" width="150px" height="150px"></a></td>
+      <td>CPU:Octa Core<br>
+해상도:FullHD<br>
+무게:172g<br>
+동영상 녹화 해상도:
+FHD (1920 x 1080) @30fps<br>
+메모리: ram 4GB, rom32GB</td><td>659,500원</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>

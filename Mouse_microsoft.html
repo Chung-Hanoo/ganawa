@@ -1,0 +1,87 @@
+<html>
+<head>
+  <title>Mouse_Microsoft</title>
+  <link rel="stylesheet" type="text/css" href="Main_Page.css">
+  <meta charset="utf-8">
+  <style>
+  td{text-align:center;}
+  .a{font-weight:bold;}
+  </style>
+</head>
+
+<body>
+  <div class="top">
+      <ul>
+        <li><a href="Main_Page.html">GANAWA</a></li>
+        <li><a href="Laptop.html">&nbsp;&nbsp;&nbsp;Laptop&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="lt_price_1.html">Price</a></li>
+            <li><a href="lt_brand_apple.html">Brand</a></li>
+            <li><a href="lt_spec_office.html">Use</a></li>
+          </ul>
+        </li>
+        <li><a href="SmartPhone.html">SmartPhone</a>
+          <ul>
+            <li><a href="Smartphone_price_up.html">Price</a></li>
+            <li><a href="Smartphone_samsung.html">Brand</a></li>
+            <li><a href="Smartphone_new.html">Release</a></li>
+          </ul>
+        </li>
+        <li><a href="Keyboard.html">&nbsp;&nbsp;Keyboard&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="kb_price_1.html">Price</a></li>
+            <li><a href="kb_brand_logi.html">Brand</a></li>
+            <li><a href="kb_ax_blue.html">Switch</a></li>
+          </ul>
+        </li>
+        <li><a href="Mouse.html">&nbsp;&nbsp;Mouse&nbsp;&nbsp;&nbsp;&nbsp;</a>
+          <ul>
+            <li><a href="Mouse_price_up.html">Price</a></li>
+            <li><a href="Mouse_microsoft.html">Brand</a></li>
+            <li><a href="Mouse_wireless.html">Line</a></li>
+          </ul>
+        </li>
+        <li class="join"><a href="joinus.html">Join</a><li>
+      </ul>
+  </div>
+
+  <script type="text/javascript">
+  function movepage(page)
+  {
+    window.document.location.href=page;
+    return;
+  }
+  </script>
+<div id="middle">
+  <table border="1" align="center">
+    <tr>
+      <td  colspan="5">
+        <form name="price">
+        <input type="radio" name="smartphone" onclick="movepage('Mouse_microsoft.html')">Microsoft
+          <input type="radio" name="smartphone" onclick="movepage('Mouse_logitech.html')">Logitech
+          <input type="radio" name="smartphone" onclick="movepage('Mouse_apple.html')">Apple
+          <input type="radio" name="smartphone" onclick="movepage('Mouse_xenics.html')">Xenics
+      </form>
+      </td>
+    </tr>
+    <tr>
+      <td bgcolor="#4C4C4C" class="a"><font color="white">Brand</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="18%"><font color="white">Name</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="15%"><font color="white">Picture</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="45%"><font color="white">Info</font></td>
+      <td bgcolor="#4C4C4C" class="a" width="10%"><font color="white">Price</font></td>
+    </tr>
+    <tr>
+      <td><img src="./img/microsoft.jpg" width="200px" height="200px"><br><font size="15px">Microsoft</font></td>
+      <td>Ark touch <br>bluetooth mouse</td>
+      <td><a href="https://www.microsoft.com/accessories/ko-kr/products/mice/arc-touch-bluetooth-mouse/7mp-00006">
+        <img src="./img/ark.jpg" width="150px" height="150px"></a></td>
+      <td>AAA 알칼라인 배터리 2개 필요<br>
+길이: 5.12" / 130mm<br>
+너비: 2.32" / 58.8mm<br>
+블루투스 연결</td><td>143,930원</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
